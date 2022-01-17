@@ -1,0 +1,35 @@
+{
+  "name": "bitmex-web-socket-client",
+  "version": "1.0",
+  "description": "A library for interacting with BitMEX's websocket API.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "start": "node example",
+    "test": "jest",
+    "lint": "eslint"
+  },
+  "keywords": [
+    "bitmex",
+    "bitcoin",
+    "websocket",
+    "api"
+  ],
+  "author": "Kfir Menashe",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.2.0",
+    "eventemitter2": "^6.4.3",
+    "lodash": "^4.17.21",
+    "superagent": "^6.1.0",
+    "ws": "^7.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-plugin-jest": "^24.1.0",
+    "jest": "^26.5.3",
+    "sinon": "^9.2.0"
+  }
+}
